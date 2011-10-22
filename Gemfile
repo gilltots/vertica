@@ -1,4 +1,4 @@
 source :rubygems
 
-gem 'rake'
-gem 'jeweler'
+#gems are listed as dependencies in vertica.gemspec
+gemspec

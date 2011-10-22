@@ -10,7 +10,7 @@ module Vertica
   end
 
   PROTOCOL_VERSION = 3 << 16
-  VERSION = File.read(File.join(File.dirname(__FILE__), *%w[.. VERSION])).strip
+  VERSION = '0.9.0.beta3'
 
   def self.connect(*args)
     Connection.new(*args)
